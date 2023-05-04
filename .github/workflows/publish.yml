@@ -19,5 +19,4 @@ jobs:
       - name: Build the Grampie Docker image
         run: |
           docker build . --tag ghcr.io/sodoto/grampie:latest
-          docker run ghcr.io/sodoto/grampie:latest
           docker push ghcr.io/sodoto/grampie:latest
